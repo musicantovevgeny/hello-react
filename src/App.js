@@ -6,8 +6,8 @@ function App() {
 
   return (
     <div className="App">
-
-        <Employee name = 'Caleb' role ='junkyard'/>
+      <div className="flex flex-wrap">
+      <Employee name = 'Caleb' role ='junkyard'/>
         <Employee name = 'Jena' />
         <Employee name = 'Alisa' role='Boss'/>
         <Employee name = 'Caleb' role ='junkyard'/>
@@ -16,6 +16,7 @@ function App() {
         <Employee name = 'Caleb' role ='junkyard'/>
         <Employee name = 'Jena'/>
         <Employee name = 'Alisa' role='Boss'/>
+      </div>
     </div>
   );
 }
